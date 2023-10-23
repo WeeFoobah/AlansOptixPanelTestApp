@@ -1,0 +1,26 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: ContollerDateTime
+  Id: g=51d9091343294627a94f7e5f76f71ed4
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [7]
+  Value: [0,0,0,0,0,0,0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ContollerDateTime"
+- Name: strDateTime
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [12]
+  Value: ["","","","","","","","","","","",""]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "strDateTime"

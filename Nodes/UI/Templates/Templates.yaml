@@ -1,0 +1,7 @@
+Name: Templates
+Type: FolderType
+Children:
+- Name: BaseScreen
+  Id: g=b27355ccde3ab4a27ccf3856f13e401a
+  Supertype: Screen
+  ReferenceType: HasComponent
