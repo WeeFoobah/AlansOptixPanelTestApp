@@ -53,7 +53,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -69,7 +69,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -340,7 +340,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -355,7 +355,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../../../SystemNode@NodeId"
+              Value: "/Objects/AlansOptixPanelTestApp/System/System@NodeId"
         - Name: Panel2
           Type: NavigationPanelItem
           Children:
@@ -366,7 +366,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -381,7 +381,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../../../SystemNode@NodeId"
+              Value: "/Objects/AlansOptixPanelTestApp/System/System@NodeId"
         - Name: Panel3
           Type: NavigationPanelItem
           Children:
@@ -392,7 +392,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -407,7 +407,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../../../SystemNode@NodeId"
+              Value: "/Objects/AlansOptixPanelTestApp/System/System@NodeId"
       - Name: CurrentPanel
         Type: NodePointer
         DataType: NodeId
@@ -527,11 +527,11 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
+                      Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -557,7 +557,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
+            Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -624,7 +624,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../FTRemoteAccessNode@NodeId"
+          Value: "/Objects/AlansOptixPanelTestApp/System/FTRemoteAccess@NodeId"
     - Name: IncomingConnectionReceiverLogic
       Type: NetLogic
     - Name: FTRemoteAccessNode
@@ -833,7 +833,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../SystemNode/DateAndTime/RemoteNTPServer"
+          Value: "/Objects/AlansOptixPanelTestApp/System/System/DateAndTime/RemoteNTPServer"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -994,7 +994,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../SystemNode/DateAndTime/DateTime"
+          Value: "/Objects/AlansOptixPanelTestApp/System/System/DateAndTime/DateTime"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -1244,7 +1244,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../../../SystemNode/Device/EthernetPortCount"
+              Value: "/Objects/AlansOptixPanelTestApp/System/System/Device/EthernetPortCount"
       - Name: ModifiedValueHandler1
         Type: EventHandler
         Children:
@@ -1432,7 +1432,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../SystemNode/RebootRequired"
+          Value: "/Objects/AlansOptixPanelTestApp/System/System/RebootRequired"
     - Name: RebootButton
       Type: Button
       Children:
@@ -1509,7 +1509,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../SystemNode/RebootRequired"
+          Value: "/Objects/AlansOptixPanelTestApp/System/System/RebootRequired"
     - Name: DateAndTimeWidgetLogic
       Type: NetLogic
       Children:

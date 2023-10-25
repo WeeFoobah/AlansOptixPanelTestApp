@@ -15,10 +15,12 @@ Children:
       DataType: TimeSynchronizationModeEnum
       Value: 0
     - Name: RemoteNTPServer
+      Id: g=c55f9fdfceb4f2b2cb6681847e52f80a
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: DateTime
+      Id: g=d1d72d80d1162a65c7ee0223f920bc32
       Type: BaseDataVariableType
       DataType: DateTime
       Value: "1601-01-01T00:00:00.0000000"
@@ -61,6 +63,7 @@ Children:
       AccessLevel: Read
       Value: 0
     - Name: EthernetPortCount
+      Id: g=2efebb76cbe3f030b9bc4923f5fafcca
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
@@ -210,6 +213,7 @@ Children:
     Target: ns=16;i=17
     Direction: Forward
   - Name: RebootRequired
+    Id: g=196076ffc536664d6a08372990b5a389
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read

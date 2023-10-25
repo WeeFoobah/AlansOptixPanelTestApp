@@ -84,7 +84,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
+                    Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: LocalizedText
@@ -100,7 +100,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -126,7 +126,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -201,7 +201,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../FTRemoteAccessNode@NodeId"
+        Value: "/Objects/AlansOptixPanelTestApp/System/FTRemoteAccess@NodeId"
         Children:
         - Name: Mode
           Type: BaseVariableType

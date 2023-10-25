@@ -42,7 +42,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -58,7 +58,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
           Children:
           - Name: Kind
             Type: PropertyType

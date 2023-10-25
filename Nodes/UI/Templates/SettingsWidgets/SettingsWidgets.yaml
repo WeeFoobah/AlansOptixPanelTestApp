@@ -165,7 +165,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../SystemNode/DateAndTime/RemoteNTPServer"
+        Value: "/Objects/AlansOptixPanelTestApp/System/System/DateAndTime/RemoteNTPServer"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -331,7 +331,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../SystemNode/DateAndTime/DateTime"
+        Value: "/Objects/AlansOptixPanelTestApp/System/System/DateAndTime/DateTime"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -587,7 +587,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../SystemNode/Device/EthernetPortCount"
+            Value: "/Objects/AlansOptixPanelTestApp/System/System/Device/EthernetPortCount"
     - Name: ModifiedValueHandler1
       Type: EventHandler
       Children:
@@ -866,7 +866,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../SystemNode/RebootRequired"
+        Value: "/Objects/AlansOptixPanelTestApp/System/System/RebootRequired"
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -979,7 +979,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../SystemNode/RebootRequired"
+        Value: "/Objects/AlansOptixPanelTestApp/System/System/RebootRequired"
   - Name: DateAndTimeWidgetLogic
     Type: NetLogic
     Children:
@@ -1022,4 +1022,3 @@ Children:
     ModellingRule: Optional
     Value: 0
 - File: FactoryTalkRemoteAccessWidget/FactoryTalkRemoteAccessWidget.yaml
-- File: SuperjuiceWidgets/SuperjuiceWidgets.yaml

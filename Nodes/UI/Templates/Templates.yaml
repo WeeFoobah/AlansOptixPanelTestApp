@@ -1,7 +1,24 @@
 Name: Templates
 Type: FolderType
 Children:
+- Name: SuperjuiceBaseScreen
+  Id: g=c6b1ed849af5138e918703bead23daec
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1170.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 700.0
 - Name: BaseScreen
   Id: g=b27355ccde3ab4a27ccf3856f13e401a
   Supertype: Screen
   ReferenceType: HasComponent
+- File: SuperjuiceWidgets/SuperjuiceWidgets.yaml
+- File: SettingsWidgets/SettingsWidgets.yaml

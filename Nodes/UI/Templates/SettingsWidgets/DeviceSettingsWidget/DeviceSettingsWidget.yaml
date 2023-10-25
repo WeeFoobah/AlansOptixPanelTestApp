@@ -42,7 +42,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -57,7 +57,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../SystemNode@NodeId"
+            Value: "/Objects/AlansOptixPanelTestApp/System/System@NodeId"
       - Name: Panel2
         Type: NavigationPanelItem
         Children:
@@ -68,7 +68,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -83,7 +83,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../SystemNode@NodeId"
+            Value: "/Objects/AlansOptixPanelTestApp/System/System@NodeId"
       - Name: Panel3
         Type: NavigationPanelItem
         Children:
@@ -94,7 +94,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Templates/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -109,7 +109,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../SystemNode@NodeId"
+            Value: "/Objects/AlansOptixPanelTestApp/System/System@NodeId"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
