@@ -1,0 +1,2263 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: Motor
+  Id: g=89326e62a13b0fc4bb43deae9f950b92
+  Supertype: TagStructure
+  DataType: Motor
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e88073c40ebdfdc25442097143078275",
+     "Namespace": 18
+    },
+    "Body": {
+     "Cmd_Auto": 0,
+     "Cmd_Manual": 0,
+     "Cmd_Start": 0,
+     "Cmd_Stop": 0,
+     "Name": "",
+     "Prg_Auto": 0,
+     "Prg_Manual": 0,
+     "Prg_Start": 0,
+     "Prg_Stop": 0,
+     "Sts_Alarm": 0,
+     "Sts_Mode": 0,
+     "Sts_MotorIncrement": 0.0,
+     "Sts_Overall": 0,
+     "Sts_Position": 0.0,
+     "Sts_RedlineSpeed": 0,
+     "Sts_Speed": 0,
+     "Sts_Status": 0,
+     "Sts_WarninglineSpeed": 0
+    }
+   }
+  Children:
+  - Name: Cmd_Auto
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Auto"
+  - Name: Cmd_Manual
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Manual"
+  - Name: Cmd_Start
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Start"
+  - Name: Cmd_Stop
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Stop"
+  - Name: Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Name"
+  - Name: Prg_Auto
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Auto"
+  - Name: Prg_Manual
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Manual"
+  - Name: Prg_Start
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Start"
+  - Name: Prg_Stop
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Stop"
+  - Name: Sts_Alarm
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Alarm"
+  - Name: Sts_Mode
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Mode"
+  - Name: Sts_MotorIncrement
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_MotorIncrement"
+  - Name: Sts_Overall
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Overall"
+  - Name: Sts_Position
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Position"
+  - Name: Sts_RedlineSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_RedlineSpeed"
+  - Name: Sts_Speed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Speed"
+  - Name: Sts_Status
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Status"
+  - Name: Sts_WarninglineSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_WarninglineSpeed"
+- Name: GearingAssembly
+  Id: g=6d42db427b96c3782faeabecff86b27f
+  Supertype: TagStructure
+  DataType: GearingAssembly
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "020dde8628e7848ea10258a56d7c24f0",
+     "Namespace": 18
+    },
+    "Body": {
+     "MotorToAgitatorRatio": 0.0,
+     "Name": "",
+     "Sts_Alarm": 0,
+     "Sts_Status": 0
+    }
+   }
+  Children:
+  - Name: MotorToAgitatorRatio
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MotorToAgitatorRatio"
+  - Name: Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Name"
+  - Name: Sts_Alarm
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Alarm"
+  - Name: Sts_Status
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Status"
+- Name: BatchData
+  Id: g=6502d68e83096c1253d2c86e458f7e56
+  Supertype: TagStructure
+  DataType: BatchData
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "86c3657447a411bce458240c4981f7f5",
+     "Namespace": 18
+    },
+    "Body": {
+     "Color": 0,
+     "ColorStr": "",
+     "ID": "",
+     "MaxTemp": 0,
+     "MinTemp": 0,
+     "MixTime": 0,
+     "Size": 0,
+     "Status": 0
+    }
+   }
+  Children:
+  - Name: Color
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Color"
+  - Name: ColorStr
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ColorStr"
+  - Name: ID
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ID"
+  - Name: MaxTemp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MaxTemp"
+  - Name: MinTemp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinTemp"
+  - Name: MixTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MixTime"
+  - Name: Size
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Size"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Status"
+- Name: Recipe
+  Id: g=da314a677b1488a6389acdc39c5bec5b
+  Supertype: TagStructure
+  DataType: Recipe
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "dd33526af2489bcec2a5d988a1a62e64",
+     "Namespace": 18
+    },
+    "Body": {
+     "Color": 0,
+     "ColorStr": "",
+     "IdealBatchSize": 0,
+     "IdealMixTime": 0,
+     "IdealTemp": 0,
+     "MaxBatchSize": 0,
+     "MaxMixTime": 0,
+     "MaxTemp": 0,
+     "MinBatchSize": 0,
+     "MinMixTime": 0,
+     "MinTemp": 0,
+     "Name": ""
+    }
+   }
+  Children:
+  - Name: Color
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Color"
+  - Name: ColorStr
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ColorStr"
+  - Name: IdealBatchSize
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IdealBatchSize"
+  - Name: IdealMixTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IdealMixTime"
+  - Name: IdealTemp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IdealTemp"
+  - Name: MaxBatchSize
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MaxBatchSize"
+  - Name: MaxMixTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MaxMixTime"
+  - Name: MaxTemp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MaxTemp"
+  - Name: MinBatchSize
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinBatchSize"
+  - Name: MinMixTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinMixTime"
+  - Name: MinTemp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinTemp"
+  - Name: Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Name"
+- Name: Tank
+  Id: g=c784e0ba26f4a8aeca2a83d4889a1f94
+  Supertype: TagStructure
+  DataType: Tank
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e02e09847c938f1e464a439ed62a191d",
+     "Namespace": 18
+    },
+    "Body": {
+     "Agitator": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "0655c91911a889125e3cdc95cb141053",
+       "Namespace": 18
+      },
+      "Body": {
+       "BladeShaft": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e77aee20d9c16039f08b8864b359d659",
+         "Namespace": 18
+        },
+        "Body": {
+         "Name": "",
+         "Sts_Alarm": 0,
+         "Sts_RedlineSpeed": 0,
+         "Sts_Speed": 0,
+         "Sts_Status": 0,
+         "Sts_WarninglineSpeed": 0
+        }
+       },
+       "Gearing": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "020dde8628e7848ea10258a56d7c24f0",
+         "Namespace": 18
+        },
+        "Body": {
+         "MotorToAgitatorRatio": 0.0,
+         "Name": "",
+         "Sts_Alarm": 0,
+         "Sts_Status": 0
+        }
+       },
+       "Motor": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e88073c40ebdfdc25442097143078275",
+         "Namespace": 18
+        },
+        "Body": {
+         "Cmd_Auto": 0,
+         "Cmd_Manual": 0,
+         "Cmd_Start": 0,
+         "Cmd_Stop": 0,
+         "Name": "",
+         "Prg_Auto": 0,
+         "Prg_Manual": 0,
+         "Prg_Start": 0,
+         "Prg_Stop": 0,
+         "Sts_Alarm": 0,
+         "Sts_Mode": 0,
+         "Sts_MotorIncrement": 0.0,
+         "Sts_Overall": 0,
+         "Sts_Position": 0.0,
+         "Sts_RedlineSpeed": 0,
+         "Sts_Speed": 0,
+         "Sts_Status": 0,
+         "Sts_WarninglineSpeed": 0
+        }
+       }
+      }
+     },
+     "Capacity": 0,
+     "CurrentBatchData": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "86c3657447a411bce458240c4981f7f5",
+       "Namespace": 18
+      },
+      "Body": {
+       "Color": 0,
+       "ColorStr": "",
+       "ID": "",
+       "MaxTemp": 0,
+       "MinTemp": 0,
+       "MixTime": 0,
+       "Size": 0,
+       "Status": 0
+      }
+     },
+     "CurrentRecipe": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "dd33526af2489bcec2a5d988a1a62e64",
+       "Namespace": 18
+      },
+      "Body": {
+       "Color": 0,
+       "ColorStr": "",
+       "IdealBatchSize": 0,
+       "IdealMixTime": 0,
+       "IdealTemp": 0,
+       "MaxBatchSize": 0,
+       "MaxMixTime": 0,
+       "MaxTemp": 0,
+       "MinBatchSize": 0,
+       "MinMixTime": 0,
+       "MinTemp": 0,
+       "Name": ""
+      }
+     },
+     "InFlowValve": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+       "Namespace": 18
+      },
+      "Body": {
+       "Cmd_Auto": 0,
+       "Cmd_Close": 0,
+       "Cmd_Manual": 0,
+       "Cmd_Open": 0,
+       "Prg_Auto": 0,
+       "Prg_Close": 0,
+       "Prg_Manual": 0,
+       "Prg_Open": 0,
+       "Sts_Alarm": 0,
+       "Sts_CurrentRate": 0,
+       "Sts_Mode": 0,
+       "Sts_Overall": 0,
+       "Sts_Status": 0,
+       "Title": ""
+      }
+     },
+     "Level": 0,
+     "OutFlowValve": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+       "Namespace": 18
+      },
+      "Body": {
+       "Cmd_Auto": 0,
+       "Cmd_Close": 0,
+       "Cmd_Manual": 0,
+       "Cmd_Open": 0,
+       "Prg_Auto": 0,
+       "Prg_Close": 0,
+       "Prg_Manual": 0,
+       "Prg_Open": 0,
+       "Sts_Alarm": 0,
+       "Sts_CurrentRate": 0,
+       "Sts_Mode": 0,
+       "Sts_Overall": 0,
+       "Sts_Status": 0,
+       "Title": ""
+      }
+     },
+     "TankID": "",
+     "Temp": 0,
+     "TempOutside": 0,
+     "TimeInProcess": 0
+    }
+   }
+  Children:
+  - Name: Agitator
+    Type: TankAgitatorAssembly
+    DataType: TankAgitatorAssembly
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "0655c91911a889125e3cdc95cb141053",
+       "Namespace": 18
+      },
+      "Body": {
+       "BladeShaft": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e77aee20d9c16039f08b8864b359d659",
+         "Namespace": 18
+        },
+        "Body": {
+         "Name": "",
+         "Sts_Alarm": 0,
+         "Sts_RedlineSpeed": 0,
+         "Sts_Speed": 0,
+         "Sts_Status": 0,
+         "Sts_WarninglineSpeed": 0
+        }
+       },
+       "Gearing": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "020dde8628e7848ea10258a56d7c24f0",
+         "Namespace": 18
+        },
+        "Body": {
+         "MotorToAgitatorRatio": 0.0,
+         "Name": "",
+         "Sts_Alarm": 0,
+         "Sts_Status": 0
+        }
+       },
+       "Motor": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e88073c40ebdfdc25442097143078275",
+         "Namespace": 18
+        },
+        "Body": {
+         "Cmd_Auto": 0,
+         "Cmd_Manual": 0,
+         "Cmd_Start": 0,
+         "Cmd_Stop": 0,
+         "Name": "",
+         "Prg_Auto": 0,
+         "Prg_Manual": 0,
+         "Prg_Start": 0,
+         "Prg_Stop": 0,
+         "Sts_Alarm": 0,
+         "Sts_Mode": 0,
+         "Sts_MotorIncrement": 0.0,
+         "Sts_Overall": 0,
+         "Sts_Position": 0.0,
+         "Sts_RedlineSpeed": 0,
+         "Sts_Speed": 0,
+         "Sts_Status": 0,
+         "Sts_WarninglineSpeed": 0
+        }
+       }
+      }
+     }
+    Children:
+    - Name: BladeShaft
+      Type: BladeShaftAssembly
+      DataType: BladeShaftAssembly
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e77aee20d9c16039f08b8864b359d659",
+         "Namespace": 18
+        },
+        "Body": {
+         "Name": "",
+         "Sts_Alarm": 0,
+         "Sts_RedlineSpeed": 0,
+         "Sts_Speed": 0,
+         "Sts_Status": 0,
+         "Sts_WarninglineSpeed": 0
+        }
+       }
+      Children:
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Sts_Alarm
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Alarm"
+      - Name: Sts_RedlineSpeed
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_RedlineSpeed"
+      - Name: Sts_Speed
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Speed"
+      - Name: Sts_Status
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Status"
+      - Name: Sts_WarninglineSpeed
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_WarninglineSpeed"
+    - Name: Gearing
+      Type: GearingAssembly
+      DataType: GearingAssembly
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "020dde8628e7848ea10258a56d7c24f0",
+         "Namespace": 18
+        },
+        "Body": {
+         "MotorToAgitatorRatio": 0.0,
+         "Name": "",
+         "Sts_Alarm": 0,
+         "Sts_Status": 0
+        }
+       }
+      Children:
+      - Name: MotorToAgitatorRatio
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "MotorToAgitatorRatio"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Sts_Alarm
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Alarm"
+      - Name: Sts_Status
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Status"
+    - Name: Motor
+      Type: Motor
+      DataType: Motor
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e88073c40ebdfdc25442097143078275",
+         "Namespace": 18
+        },
+        "Body": {
+         "Cmd_Auto": 0,
+         "Cmd_Manual": 0,
+         "Cmd_Start": 0,
+         "Cmd_Stop": 0,
+         "Name": "",
+         "Prg_Auto": 0,
+         "Prg_Manual": 0,
+         "Prg_Start": 0,
+         "Prg_Stop": 0,
+         "Sts_Alarm": 0,
+         "Sts_Mode": 0,
+         "Sts_MotorIncrement": 0.0,
+         "Sts_Overall": 0,
+         "Sts_Position": 0.0,
+         "Sts_RedlineSpeed": 0,
+         "Sts_Speed": 0,
+         "Sts_Status": 0,
+         "Sts_WarninglineSpeed": 0
+        }
+       }
+      Children:
+      - Name: Cmd_Auto
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Cmd_Auto"
+      - Name: Cmd_Manual
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Cmd_Manual"
+      - Name: Cmd_Start
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Cmd_Start"
+      - Name: Cmd_Stop
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Cmd_Stop"
+      - Name: Name
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Name"
+      - Name: Prg_Auto
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Prg_Auto"
+      - Name: Prg_Manual
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Prg_Manual"
+      - Name: Prg_Start
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Prg_Start"
+      - Name: Prg_Stop
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Prg_Stop"
+      - Name: Sts_Alarm
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Alarm"
+      - Name: Sts_Mode
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Mode"
+      - Name: Sts_MotorIncrement
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_MotorIncrement"
+      - Name: Sts_Overall
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Overall"
+      - Name: Sts_Position
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Position"
+      - Name: Sts_RedlineSpeed
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_RedlineSpeed"
+      - Name: Sts_Speed
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Speed"
+      - Name: Sts_Status
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_Status"
+      - Name: Sts_WarninglineSpeed
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sts_WarninglineSpeed"
+  - Name: Capacity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Capacity"
+  - Name: CurrentBatchData
+    Type: BatchData
+    DataType: BatchData
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "86c3657447a411bce458240c4981f7f5",
+       "Namespace": 18
+      },
+      "Body": {
+       "Color": 0,
+       "ColorStr": "",
+       "ID": "",
+       "MaxTemp": 0,
+       "MinTemp": 0,
+       "MixTime": 0,
+       "Size": 0,
+       "Status": 0
+      }
+     }
+    Children:
+    - Name: Color
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Color"
+    - Name: ColorStr
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ColorStr"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: MaxTemp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MaxTemp"
+    - Name: MinTemp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MinTemp"
+    - Name: MixTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MixTime"
+    - Name: Size
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Size"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Status"
+  - Name: CurrentRecipe
+    Type: Recipe
+    DataType: Recipe
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "dd33526af2489bcec2a5d988a1a62e64",
+       "Namespace": 18
+      },
+      "Body": {
+       "Color": 0,
+       "ColorStr": "",
+       "IdealBatchSize": 0,
+       "IdealMixTime": 0,
+       "IdealTemp": 0,
+       "MaxBatchSize": 0,
+       "MaxMixTime": 0,
+       "MaxTemp": 0,
+       "MinBatchSize": 0,
+       "MinMixTime": 0,
+       "MinTemp": 0,
+       "Name": ""
+      }
+     }
+    Children:
+    - Name: Color
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Color"
+    - Name: ColorStr
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ColorStr"
+    - Name: IdealBatchSize
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealBatchSize"
+    - Name: IdealMixTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealMixTime"
+    - Name: IdealTemp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IdealTemp"
+    - Name: MaxBatchSize
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MaxBatchSize"
+    - Name: MaxMixTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MaxMixTime"
+    - Name: MaxTemp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MaxTemp"
+    - Name: MinBatchSize
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MinBatchSize"
+    - Name: MinMixTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MinMixTime"
+    - Name: MinTemp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MinTemp"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+  - Name: InFlowValve
+    Type: FlowValve
+    DataType: FlowValve
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+       "Namespace": 18
+      },
+      "Body": {
+       "Cmd_Auto": 0,
+       "Cmd_Close": 0,
+       "Cmd_Manual": 0,
+       "Cmd_Open": 0,
+       "Prg_Auto": 0,
+       "Prg_Close": 0,
+       "Prg_Manual": 0,
+       "Prg_Open": 0,
+       "Sts_Alarm": 0,
+       "Sts_CurrentRate": 0,
+       "Sts_Mode": 0,
+       "Sts_Overall": 0,
+       "Sts_Status": 0,
+       "Title": ""
+      }
+     }
+    Children:
+    - Name: Cmd_Auto
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Auto"
+    - Name: Cmd_Close
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Close"
+    - Name: Cmd_Manual
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Manual"
+    - Name: Cmd_Open
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Open"
+    - Name: Prg_Auto
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Auto"
+    - Name: Prg_Close
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Close"
+    - Name: Prg_Manual
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Manual"
+    - Name: Prg_Open
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Open"
+    - Name: Sts_Alarm
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Alarm"
+    - Name: Sts_CurrentRate
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_CurrentRate"
+    - Name: Sts_Mode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Mode"
+    - Name: Sts_Overall
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Overall"
+    - Name: Sts_Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Status"
+    - Name: Title
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Title"
+  - Name: Level
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Level"
+  - Name: OutFlowValve
+    Type: FlowValve
+    DataType: FlowValve
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+       "Namespace": 18
+      },
+      "Body": {
+       "Cmd_Auto": 0,
+       "Cmd_Close": 0,
+       "Cmd_Manual": 0,
+       "Cmd_Open": 0,
+       "Prg_Auto": 0,
+       "Prg_Close": 0,
+       "Prg_Manual": 0,
+       "Prg_Open": 0,
+       "Sts_Alarm": 0,
+       "Sts_CurrentRate": 0,
+       "Sts_Mode": 0,
+       "Sts_Overall": 0,
+       "Sts_Status": 0,
+       "Title": ""
+      }
+     }
+    Children:
+    - Name: Cmd_Auto
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Auto"
+    - Name: Cmd_Close
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Close"
+    - Name: Cmd_Manual
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Manual"
+    - Name: Cmd_Open
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Open"
+    - Name: Prg_Auto
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Auto"
+    - Name: Prg_Close
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Close"
+    - Name: Prg_Manual
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Manual"
+    - Name: Prg_Open
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Open"
+    - Name: Sts_Alarm
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Alarm"
+    - Name: Sts_CurrentRate
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_CurrentRate"
+    - Name: Sts_Mode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Mode"
+    - Name: Sts_Overall
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Overall"
+    - Name: Sts_Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Status"
+    - Name: Title
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Title"
+  - Name: TankID
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TankID"
+  - Name: Temp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Temp"
+  - Name: TempOutside
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TempOutside"
+  - Name: TimeInProcess
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TimeInProcess"
+- Name: FlowValve
+  Id: g=a2b1aeb77fda1e466863fce7fc67cca1
+  Supertype: TagStructure
+  DataType: FlowValve
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+     "Namespace": 18
+    },
+    "Body": {
+     "Cmd_Auto": 0,
+     "Cmd_Close": 0,
+     "Cmd_Manual": 0,
+     "Cmd_Open": 0,
+     "Prg_Auto": 0,
+     "Prg_Close": 0,
+     "Prg_Manual": 0,
+     "Prg_Open": 0,
+     "Sts_Alarm": 0,
+     "Sts_CurrentRate": 0,
+     "Sts_Mode": 0,
+     "Sts_Overall": 0,
+     "Sts_Status": 0,
+     "Title": ""
+    }
+   }
+  Children:
+  - Name: Cmd_Auto
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Auto"
+  - Name: Cmd_Close
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Close"
+  - Name: Cmd_Manual
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Manual"
+  - Name: Cmd_Open
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Open"
+  - Name: Prg_Auto
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Auto"
+  - Name: Prg_Close
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Close"
+  - Name: Prg_Manual
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Manual"
+  - Name: Prg_Open
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Prg_Open"
+  - Name: Sts_Alarm
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Alarm"
+  - Name: Sts_CurrentRate
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_CurrentRate"
+  - Name: Sts_Mode
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Mode"
+  - Name: Sts_Overall
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Overall"
+  - Name: Sts_Status
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Status"
+  - Name: Title
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Title"
+- Name: BladeShaftAssembly
+  Id: g=94efc23738fbdc9a8ab5c939d3e00ff0
+  Supertype: TagStructure
+  DataType: BladeShaftAssembly
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e77aee20d9c16039f08b8864b359d659",
+     "Namespace": 18
+    },
+    "Body": {
+     "Name": "",
+     "Sts_Alarm": 0,
+     "Sts_RedlineSpeed": 0,
+     "Sts_Speed": 0,
+     "Sts_Status": 0,
+     "Sts_WarninglineSpeed": 0
+    }
+   }
+  Children:
+  - Name: Name
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Name"
+  - Name: Sts_Alarm
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Alarm"
+  - Name: Sts_RedlineSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_RedlineSpeed"
+  - Name: Sts_Speed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Speed"
+  - Name: Sts_Status
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Status"
+  - Name: Sts_WarninglineSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_WarninglineSpeed"
+- Name: TankAgitatorAssembly
+  Id: g=aae5386bd09a513911b3c923cba26107
+  Supertype: TagStructure
+  DataType: TankAgitatorAssembly
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "0655c91911a889125e3cdc95cb141053",
+     "Namespace": 18
+    },
+    "Body": {
+     "BladeShaft": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e77aee20d9c16039f08b8864b359d659",
+       "Namespace": 18
+      },
+      "Body": {
+       "Name": "",
+       "Sts_Alarm": 0,
+       "Sts_RedlineSpeed": 0,
+       "Sts_Speed": 0,
+       "Sts_Status": 0,
+       "Sts_WarninglineSpeed": 0
+      }
+     },
+     "Gearing": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "020dde8628e7848ea10258a56d7c24f0",
+       "Namespace": 18
+      },
+      "Body": {
+       "MotorToAgitatorRatio": 0.0,
+       "Name": "",
+       "Sts_Alarm": 0,
+       "Sts_Status": 0
+      }
+     },
+     "Motor": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e88073c40ebdfdc25442097143078275",
+       "Namespace": 18
+      },
+      "Body": {
+       "Cmd_Auto": 0,
+       "Cmd_Manual": 0,
+       "Cmd_Start": 0,
+       "Cmd_Stop": 0,
+       "Name": "",
+       "Prg_Auto": 0,
+       "Prg_Manual": 0,
+       "Prg_Start": 0,
+       "Prg_Stop": 0,
+       "Sts_Alarm": 0,
+       "Sts_Mode": 0,
+       "Sts_MotorIncrement": 0.0,
+       "Sts_Overall": 0,
+       "Sts_Position": 0.0,
+       "Sts_RedlineSpeed": 0,
+       "Sts_Speed": 0,
+       "Sts_Status": 0,
+       "Sts_WarninglineSpeed": 0
+      }
+     }
+    }
+   }
+  Children:
+  - Name: BladeShaft
+    Type: BladeShaftAssembly
+    DataType: BladeShaftAssembly
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e77aee20d9c16039f08b8864b359d659",
+       "Namespace": 18
+      },
+      "Body": {
+       "Name": "",
+       "Sts_Alarm": 0,
+       "Sts_RedlineSpeed": 0,
+       "Sts_Speed": 0,
+       "Sts_Status": 0,
+       "Sts_WarninglineSpeed": 0
+      }
+     }
+    Children:
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Sts_Alarm
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Alarm"
+    - Name: Sts_RedlineSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_RedlineSpeed"
+    - Name: Sts_Speed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Speed"
+    - Name: Sts_Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Status"
+    - Name: Sts_WarninglineSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_WarninglineSpeed"
+  - Name: Gearing
+    Type: GearingAssembly
+    DataType: GearingAssembly
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "020dde8628e7848ea10258a56d7c24f0",
+       "Namespace": 18
+      },
+      "Body": {
+       "MotorToAgitatorRatio": 0.0,
+       "Name": "",
+       "Sts_Alarm": 0,
+       "Sts_Status": 0
+      }
+     }
+    Children:
+    - Name: MotorToAgitatorRatio
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MotorToAgitatorRatio"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Sts_Alarm
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Alarm"
+    - Name: Sts_Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Status"
+  - Name: Motor
+    Type: Motor
+    DataType: Motor
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e88073c40ebdfdc25442097143078275",
+       "Namespace": 18
+      },
+      "Body": {
+       "Cmd_Auto": 0,
+       "Cmd_Manual": 0,
+       "Cmd_Start": 0,
+       "Cmd_Stop": 0,
+       "Name": "",
+       "Prg_Auto": 0,
+       "Prg_Manual": 0,
+       "Prg_Start": 0,
+       "Prg_Stop": 0,
+       "Sts_Alarm": 0,
+       "Sts_Mode": 0,
+       "Sts_MotorIncrement": 0.0,
+       "Sts_Overall": 0,
+       "Sts_Position": 0.0,
+       "Sts_RedlineSpeed": 0,
+       "Sts_Speed": 0,
+       "Sts_Status": 0,
+       "Sts_WarninglineSpeed": 0
+      }
+     }
+    Children:
+    - Name: Cmd_Auto
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Auto"
+    - Name: Cmd_Manual
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Manual"
+    - Name: Cmd_Start
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Start"
+    - Name: Cmd_Stop
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cmd_Stop"
+    - Name: Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Name"
+    - Name: Prg_Auto
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Auto"
+    - Name: Prg_Manual
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Manual"
+    - Name: Prg_Start
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Start"
+    - Name: Prg_Stop
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Prg_Stop"
+    - Name: Sts_Alarm
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Alarm"
+    - Name: Sts_Mode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Mode"
+    - Name: Sts_MotorIncrement
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_MotorIncrement"
+    - Name: Sts_Overall
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Overall"
+    - Name: Sts_Position
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Position"
+    - Name: Sts_RedlineSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_RedlineSpeed"
+    - Name: Sts_Speed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Speed"
+    - Name: Sts_Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Status"
+    - Name: Sts_WarninglineSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_WarninglineSpeed"

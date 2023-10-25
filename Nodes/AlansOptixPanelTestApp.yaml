@@ -5,14 +5,14 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: Locales
-    Type: PropertyType
-    DataType: String
+    Type: BaseDataVariableType
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
-    Type: PropertyType
-    DataType: String
+    Type: BaseDataVariableType
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
@@ -20,34 +20,34 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: AuthenticationMode
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: AuthenticationMode
     Value: 3
   - Name: DefaultDomainName
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: String
     Value: "rss-emea-mkf"
   - Name: DomainServerAddress
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: ResourceUri
     Value: "10.75.71.10"
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration

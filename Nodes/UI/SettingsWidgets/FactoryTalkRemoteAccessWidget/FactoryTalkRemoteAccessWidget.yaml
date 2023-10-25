@@ -84,7 +84,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=18;g=e348b14d-bc70-3568-8714-c7ced8a72128}@BrowseName"
+                    Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: LocalizedText
@@ -100,15 +100,16 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"e348b14dbc7035688714c7ced8a72128","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -125,15 +126,16 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"77122192dcccfaa39d1e78d7bd27e222","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -149,7 +151,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":5}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -195,7 +197,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62,"Namespace":16}
+        Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -211,12 +213,12 @@ Children:
   - Name: FTRemoteAccessNode
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"f437673fcc988bca3673e6d9346ba174","Namespace":18}
+    Value: "/Objects/AlansOptixPanelTestApp/System/FTRemoteAccess"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":62,"Namespace":16}
+      Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
   - Name: FTRemoteAccessWidgetSetupLogic
     Type: NetLogic
     Children:

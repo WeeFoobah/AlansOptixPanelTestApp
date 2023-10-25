@@ -1,0 +1,567 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Motor
+  Id: g=e88073c40ebdfdc25442097143078275
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e88073c40ebdfdc25442097143078275",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Cmd_Auto",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Cmd_Manual",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Cmd_Start",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Cmd_Stop",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Prg_Auto",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Manual",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Start",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Stop",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Alarm",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Mode",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_MotorIncrement",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_Overall",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Position",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_RedlineSpeed",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Speed",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_WarninglineSpeed",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: GearingAssembly
+  Id: g=020dde8628e7848ea10258a56d7c24f0
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "GearingAssembly",
+    "DataType": {
+     "IdType": 2,
+     "Id": "020dde8628e7848ea10258a56d7c24f0",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "MotorToAgitatorRatio",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Sts_Alarm",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Status",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"GearingAssembly"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: BatchData
+  Id: g=86c3657447a411bce458240c4981f7f5
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "BatchData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "86c3657447a411bce458240c4981f7f5",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Color",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ColorStr",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "MaxTemp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinTemp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MixTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Size",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"BatchData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Recipe
+  Id: g=dd33526af2489bcec2a5d988a1a62e64
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Recipe",
+    "DataType": {
+     "IdType": 2,
+     "Id": "dd33526af2489bcec2a5d988a1a62e64",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Color",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ColorStr",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "IdealBatchSize",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "IdealMixTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "IdealTemp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxBatchSize",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxMixTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxTemp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinBatchSize",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinMixTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MinTemp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Recipe"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Tank
+  Id: g=e02e09847c938f1e464a439ed62a191d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Tank",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e02e09847c938f1e464a439ed62a191d",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Agitator",
+      "DataType": {
+       "IdType": 2,
+       "Id": "0655c91911a889125e3cdc95cb141053",
+       "Namespace": 18
+      }
+     },{
+      "Name": "Capacity",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CurrentBatchData",
+      "DataType": {
+       "IdType": 2,
+       "Id": "86c3657447a411bce458240c4981f7f5",
+       "Namespace": 18
+      }
+     },{
+      "Name": "CurrentRecipe",
+      "DataType": {
+       "IdType": 2,
+       "Id": "dd33526af2489bcec2a5d988a1a62e64",
+       "Namespace": 18
+      }
+     },{
+      "Name": "InFlowValve",
+      "DataType": {
+       "IdType": 2,
+       "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+       "Namespace": 18
+      }
+     },{
+      "Name": "Level",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OutFlowValve",
+      "DataType": {
+       "IdType": 2,
+       "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+       "Namespace": 18
+      }
+     },{
+      "Name": "TankID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Temp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TempOutside",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TimeInProcess",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Tank"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: FlowValve
+  Id: g=25f5250e2e2f4e2606c99d5ba526fd33
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "FlowValve",
+    "DataType": {
+     "IdType": 2,
+     "Id": "25f5250e2e2f4e2606c99d5ba526fd33",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Cmd_Auto",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Cmd_Close",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Cmd_Manual",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Cmd_Open",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Auto",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Close",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Manual",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Prg_Open",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Alarm",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_CurrentRate",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Mode",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Overall",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Title",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"FlowValve"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: BladeShaftAssembly
+  Id: g=e77aee20d9c16039f08b8864b359d659
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "BladeShaftAssembly",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e77aee20d9c16039f08b8864b359d659",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Name",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Sts_Alarm",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_RedlineSpeed",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Speed",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Status",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Sts_WarninglineSpeed",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"BladeShaftAssembly"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TankAgitatorAssembly
+  Id: g=0655c91911a889125e3cdc95cb141053
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TankAgitatorAssembly",
+    "DataType": {
+     "IdType": 2,
+     "Id": "0655c91911a889125e3cdc95cb141053",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "BladeShaft",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e77aee20d9c16039f08b8864b359d659",
+       "Namespace": 18
+      }
+     },{
+      "Name": "Gearing",
+      "DataType": {
+       "IdType": 2,
+       "Id": "020dde8628e7848ea10258a56d7c24f0",
+       "Namespace": 18
+      }
+     },{
+      "Name": "Motor",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e88073c40ebdfdc25442097143078275",
+       "Namespace": 18
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TankAgitatorAssembly"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

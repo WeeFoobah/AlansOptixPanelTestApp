@@ -42,7 +42,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"9cf154c923572624320f16c16fa657a3","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -51,6 +51,7 @@ Children:
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -67,7 +68,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"548a589cc1532b072d9d24316f7b6090","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -76,6 +77,7 @@ Children:
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -92,7 +94,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"632709bc0ca708c922da2f68cb20eb09","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -101,6 +103,7 @@ Children:
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -158,12 +161,12 @@ Children:
   - Name: SystemNode
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ec6e454a68ebbe1d2909d93aa145ec1b","Namespace":18}
+    Value: "/Objects/AlansOptixPanelTestApp/System/System"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":16}
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: DeviceSettingsWidgetLogic
     Type: NetLogic
 - File: DeviceSettingsWidgetComponents/DeviceSettingsWidgetComponents.yaml

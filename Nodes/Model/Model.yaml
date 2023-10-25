@@ -8,15 +8,15 @@ Children:
   Children:
   - Name: EURange
     Type: RangeType
-    DataType: EURange
+    DataType: Range
     Value: 
      {
       "TypeId": {
        "Id": 884
       },
       "Body": {
-       "low": 0.0,
-       "high": 0.0
+       "Low": 0.0,
+       "High": 0.0
       }
      }
     Children:

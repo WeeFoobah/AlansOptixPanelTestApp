@@ -53,12 +53,12 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"41f433c486aa6dfdb14c2c47570eea1a","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: WANPanel
           Type: NavigationPanelItem
           Children:
@@ -69,12 +69,12 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"d17d8ab3d7f8047c35a02cbe0b7248c6","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: CurrentPanel
         Type: NodePointer
         DataType: NodeId
@@ -84,7 +84,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":6,"Namespace":5}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Name: CurrentTabIndex
         Type: BaseDataVariableType
         DataType: Int32
@@ -109,7 +109,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":5}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -124,7 +124,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -181,7 +181,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":5}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -196,7 +196,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -263,12 +263,12 @@ Children:
     - Name: SystemNode
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ec6e454a68ebbe1d2909d93aa145ec1b","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/System/System"
       Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":1,"Namespace":16}
+        Value: "/Types/ObjectTypes/BaseObjectType/System"
     - Name: NetworkSettingsLogic
       Type: NetLogic
       Children:
@@ -340,7 +340,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"9cf154c923572624320f16c16fa657a3","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -349,6 +349,7 @@ Children:
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
+            ValueRank: ScalarOrOneDimension
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
@@ -365,7 +366,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"548a589cc1532b072d9d24316f7b6090","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -374,6 +375,7 @@ Children:
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
+            ValueRank: ScalarOrOneDimension
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
@@ -390,7 +392,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"632709bc0ca708c922da2f68cb20eb09","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -399,6 +401,7 @@ Children:
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
+            ValueRank: ScalarOrOneDimension
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
@@ -428,12 +431,12 @@ Children:
     - Name: SystemNode
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ec6e454a68ebbe1d2909d93aa145ec1b","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/System/System"
       Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":1,"Namespace":16}
+        Value: "/Types/ObjectTypes/BaseObjectType/System"
     - Name: DeviceSettingsWidgetLogic
       Type: NetLogic
     - Name: LeftMargin
@@ -524,19 +527,20 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "{NodeId:ns=18;g=e348b14d-bc70-3568-8714-c7ced8a72128}@BrowseName"
+                      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"e348b14dbc7035688714c7ced8a72128","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
+            ValueRank: ScalarOrOneDimension
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
@@ -553,15 +557,16 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":2,"Id":"77122192dcccfaa39d1e78d7bd27e222","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: AliasNode
             Type: BaseDataVariableType
             DataType: NodeId
+            ValueRank: ScalarOrOneDimension
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
@@ -577,7 +582,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":6,"Namespace":5}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Name: CurrentTabIndex
         Type: BaseDataVariableType
         DataType: Int32
@@ -615,7 +620,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":62,"Namespace":16}
+          Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
@@ -625,12 +630,12 @@ Children:
     - Name: FTRemoteAccessNode
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"f437673fcc988bca3673e6d9346ba174","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/System/FTRemoteAccess"
       Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62,"Namespace":16}
+        Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
     - Name: FTRemoteAccessWidgetSetupLogic
       Type: NetLogic
       Children:
@@ -721,7 +726,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":5}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -736,7 +741,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1079,7 +1084,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1137,7 +1142,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":5}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1152,7 +1157,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1261,7 +1266,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1319,7 +1324,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":5}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1334,7 +1339,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1437,7 +1442,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":5}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -1452,7 +1457,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -1520,12 +1525,12 @@ Children:
     - Name: SystemNode
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ec6e454a68ebbe1d2909d93aa145ec1b","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/System/System"
       Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":1,"Namespace":16}
+        Value: "/Types/ObjectTypes/BaseObjectType/System"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1536,643 +1541,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
-- Name: BasicObjects
-  Id: g=8c4e5732fd26a9ddcca4f4c92c886567
-  Supertype: Screen
-  ReferenceType: HasComponent
-  Children:
-  - Name: RandomNumber
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "{NodeId:ns=18;g=4ef9bbaa-677b-4078-1d8d-bcbe8aee9bd7}"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 140.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 165.0
-- Name: Sync_Date_and_TIme
-  Id: g=7844fe526f4bd151fca51c046e198e92
-  Supertype: Screen
-  ReferenceType: HasComponent
-  Children:
-  - Name: ControllerYear
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"{0:d2}"}
-        - Name: ns=3;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{NodeId:ns=18;g=51d90913-4329-4627-a94f-7e5f76f71ed4}[0]"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 45.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: ControllerMonth
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/AlansOptixPanelTestApp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation2/Tags/Controller Tags/ContollerDateTime[1]"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: ControllerDay
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"{0:d2}"}
-        - Name: ns=3;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/AlansOptixPanelTestApp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation2/Tags/Controller Tags/ContollerDateTime[2]"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 115.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: ControllerHour
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/AlansOptixPanelTestApp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation2/Tags/Controller Tags/ContollerDateTime[3]"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 150.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: ControllerMinute
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/AlansOptixPanelTestApp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation2/Tags/Controller Tags/ContollerDateTime[4]"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 185.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: ControllerSecond
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/AlansOptixPanelTestApp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation2/Tags/Controller Tags/ContollerDateTime[5]"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 220.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: lblControllerYear
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Year in Controller"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-  - Name: lblControllerMonth
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Month in Controller"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 122.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 85.0
-  - Name: lblControllerDay
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Day in Controller"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-  - Name: lblControllerHour
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Hour in Controller"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 155.0
-  - Name: lblControllerMinute
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Minute in Controller"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 195.0
-  - Name: lblControllerSecond
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Second in Controller"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 122.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 230.0
-  - Name: TextBox1
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"{0}/{1}/{2} {3}:{4}:{5}"}
-        - Name: ns=3;Source1
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../ControllerMonth/Text"
-        - Name: ns=3;Source2
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../ControllerYear/Text"
-        - Name: ns=3;Source3
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../ControllerHour/Text"
-        - Name: ns=3;Source4
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../ControllerMinute/Text"
-        - Name: ns=3;Source5
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../ControllerSecond/Text"
-        - Name: ns=3;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../ControllerDay/Text"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 300.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 130.0
-  - Name: DateTimeInput
-    Type: DateTimePicker
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: DateTime
-      Value: "1601-01-01T00:00:00.0000000"
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../SystemNode/DateAndTime/DateTime"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      Value: 630.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      Value: 400.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      Value: 171.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      Value: 28.0
-    - Name: TextVerticalAlignment
-      Type: BaseVariableType
-      DataType: TextVerticalAlignment
-      Value: 1
-    - Name: Enabled
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-    - Name: InputFormat
-      Type: BaseDataVariableType
-      DataType: DateTimePickerInputFormatEnum
-      ModellingRule: Optional
-      Value: 0
-  - Name: TextBox2
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/AlansOptixPanelTestApp/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation2/Tags/Controller Tags/strDateTime[9]"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 310.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 395.0
-  - Name: TextBox3
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"{0:F}"}
-        - Name: ns=3;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../TextBox1/Text"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 310.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 480.0
 - Name: RandomTests
   Id: g=c9cdc5a99d14b16c4535eb4a3d85f965
   Supertype: Screen
@@ -2194,12 +1562,12 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"8c4e5732fd26a9ddcca4f4c92c886567","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Screens/QuickTestScreens/BasicObjects"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel2
         Type: NavigationPanelItem
         Children:
@@ -2210,12 +1578,12 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"7844fe526f4bd151fca51c046e198e92","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/Screens/QuickTestScreens/Sync_Date_and_TIme"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -2225,7 +1593,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":5}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
@@ -2261,3 +1629,5 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+- File: QuickTestScreens/QuickTestScreens.yaml
+- File: SuperJuiceOptixScreens/SuperJuiceOptixScreens.yaml

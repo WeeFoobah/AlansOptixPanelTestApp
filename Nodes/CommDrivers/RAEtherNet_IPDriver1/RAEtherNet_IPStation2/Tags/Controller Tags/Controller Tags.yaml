@@ -14,6 +14,7 @@ Children:
     DataType: String
     Value: "ContollerDateTime"
 - Name: strDateTime
+  Id: g=32c37f6bab08f8d8ffda3aabd9891abf
   Type: RAEtherNetIPTag
   DataType: String
   ValueRank: OneDimension

@@ -52,7 +52,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":690,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -67,7 +67,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -421,7 +421,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -479,7 +479,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":690,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -494,7 +494,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -609,7 +609,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -667,7 +667,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":690,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -682,7 +682,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -906,7 +906,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -921,7 +921,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -1005,12 +1005,12 @@ Children:
   - Name: SystemNode
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ec6e454a68ebbe1d2909d93aa145ec1b","Namespace":18}
+    Value: "/Objects/AlansOptixPanelTestApp/System/System"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":16}
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -1022,3 +1022,4 @@ Children:
     ModellingRule: Optional
     Value: 0
 - File: FactoryTalkRemoteAccessWidget/FactoryTalkRemoteAccessWidget.yaml
+- File: SuperjuiceWidgets/SuperjuiceWidgets.yaml

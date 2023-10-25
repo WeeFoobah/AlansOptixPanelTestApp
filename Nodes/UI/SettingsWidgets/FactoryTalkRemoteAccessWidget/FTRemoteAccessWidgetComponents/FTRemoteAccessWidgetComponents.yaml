@@ -29,7 +29,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":62,"Namespace":16}
+      Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
 - Name: ConnectionPanel
   Id: g=e348b14dbc7035688714c7ced8a72128
   Supertype: Panel
@@ -53,7 +53,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"07b10933e4ee4d4cbf84518e190ea9be","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -459,7 +459,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":5}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -474,7 +474,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -661,7 +661,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":5}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: ConditionalConverter1
           Type: ConditionalConverter
           Children:
@@ -720,7 +720,7 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             ReferenceType: HasParameter
-            Value: {"IdType":2,"Id":"323ecbd80fe0dccc66307959b261f54a","Namespace":18}
+            Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
           - Name: FalseValue
             Type: BaseDataVariableType
             DataType: NodeId
@@ -791,7 +791,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: NodeId
                     ReferenceType: HasParameter
-                    Value: {"IdType":2,"Id":"d8a8bb0d6c0490587ebdf9c1eb42375e","Namespace":18}
+                    Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/NewConnectionCredentialsPanel"
                   - Name: FalseValue
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -829,17 +829,17 @@ Children:
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ReferenceType: HasParameter
-                        Value: {"IdType":2,"Id":"c05a81edcb91fa074772f19543ea1b38","Namespace":18}
+                        Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/AcceptDenyIncomingRequestPanel"
                       - Name: FalseValue
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ReferenceType: HasParameter
-                        Value: {"IdType":2,"Id":"323ecbd80fe0dccc66307959b261f54a","Namespace":18}
+                        Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
               - Name: FalseValue
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
-                Value: {"IdType":2,"Id":"323ecbd80fe0dccc66307959b261f54a","Namespace":18}
+                Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
       - Name: CurrentPanel
         Type: NodePointer
         DataType: NodeId
@@ -849,7 +849,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":6,"Namespace":5}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Class: Reference
         Target: ns=5;i=478
       - Name: Width
@@ -870,6 +870,7 @@ Children:
       - Name: PanelAliasNode
         Type: BaseDataVariableType
         DataType: NodeId
+        ValueRank: ScalarOrOneDimension
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: DynamicLink
@@ -954,7 +955,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"07b10933e4ee4d4cbf84518e190ea9be","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: IncomingConnectionApprovalLogic
     Type: NetLogic
     Children:
@@ -1132,7 +1133,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":5}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -1147,7 +1148,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1241,7 +1242,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":5}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -1256,7 +1257,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -1359,7 +1360,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"07b10933e4ee4d4cbf84518e190ea9be","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: VerticalLayout2
     Type: ColumnLayout
     Children:
@@ -1701,7 +1702,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":71,"Namespace":5}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ConditionalConverter1
         Type: ConditionalConverter
         Children:
@@ -1733,12 +1734,12 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
-          Value: {"IdType":2,"Id":"dc2c41b238ed9ce9aa4f98d28d04b528","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistanceEnabledPanel"
         - Name: FalseValue
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
-          Value: {"IdType":2,"Id":"f0afd51b3f49febd40b32153974e81b8","Namespace":18}
+          Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistanceDisabledPanel"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -1748,7 +1749,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":5}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=5;i=478
     - Name: Width
@@ -1764,6 +1765,7 @@ Children:
     - Name: PanelAliasNode
       Type: BaseDataVariableType
       DataType: NodeId
+      ValueRank: ScalarOrOneDimension
       Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: DynamicLink
@@ -1788,7 +1790,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"07b10933e4ee4d4cbf84518e190ea9be","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -1822,7 +1824,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"07b10933e4ee4d4cbf84518e190ea9be","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: VerticalLayout1
     Type: ColumnLayout
     Children:
@@ -2250,7 +2252,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":690,"Namespace":5}
+            Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -2265,7 +2267,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -2605,7 +2607,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"07b10933e4ee4d4cbf84518e190ea9be","Namespace":18}
+      Value: "/Objects/AlansOptixPanelTestApp/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
 - Name: EmptyPanel
   Id: g=323ecbd80fe0dccc66307959b261f54a
   Supertype: Panel
