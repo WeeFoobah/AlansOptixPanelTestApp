@@ -131,6 +131,19 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{TankNumber}/CurrentRecipe/Name"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{TankNumber}/CurrentRecipe/Name"
         - Name: Level
           Type: BaseDataVariableType
           DataType: Double
@@ -238,6 +251,25 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{TankNumber}/CurrentRecipe/Name"
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
     - Name: StorageTank2
       Type: StorageTank
       Children:
@@ -258,6 +290,19 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{TankNumber}/CurrentRecipe/Name"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{TankNumber}/CurrentRecipe/Name"
         - Name: Level
           Type: BaseDataVariableType
           DataType: Double
@@ -375,6 +420,25 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{TankNumber}/CurrentRecipe/Name"
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
     - Name: StorageTank3
       Type: StorageTank
       Children:
@@ -395,6 +459,19 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{TankNumber}/CurrentRecipe/Name"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{TankNumber}/CurrentRecipe/Name"
         - Name: Level
           Type: BaseDataVariableType
           DataType: Double
@@ -512,6 +589,25 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{TankNumber}/CurrentRecipe/Name"
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
     - Name: StorageTank4
       Type: StorageTank
       Children:
@@ -532,6 +628,19 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{TankNumber}/CurrentRecipe/Name"
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{TankNumber}/CurrentRecipe/Name"
         - Name: Level
           Type: BaseDataVariableType
           DataType: Double
@@ -649,3 +758,22 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{TankNumber}/CurrentRecipe/Name"
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
